@@ -1,0 +1,27 @@
+﻿[00:59:37] === refresh TO-treasury-installer (local) in C:\kon-migration\bigfiles-TO-treasury-installer-20261104 ===
+[01:00:44]    1 object found, done.
+[01:00:44]    Fetching all references...
+[01:00:45] 1. orig: heads=59 tags=2
+git : fatal: unknown command: ﻿delete refs/remotes/origin/2026.1.1000?
+At C:\kon-migration\scripts\to-treasury-installer-refresh.ps1:34 char:71
++ ... rmat="delete %(refname)" refs/remotes | git -C $rw update-ref --stdin
++                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: unknown ...in/2026.1.1000?:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[01:11:11]    Rewriting commits: 100% (5097/5097), done.
+[01:11:11]    Updating refs: ..., done.
+[01:11:11]    Checkout: ..., done.
+[01:11:13] 2. rewrite: heads=59 tags=2
+[01:11:33]    blobs over 100 MB left in rewrite: 0 
+[01:11:33]    [01:11:33] === graft TO-treasury-installer (local only) ===
+[01:12:53]    [01:12:53] Finastra originals matched to rewrite: 5097 of 5097
+[01:12:53]    [01:12:53] commits: Finastra(rewritten) 5097, tcm-pilot 5089, matched 5073, to create 24
+[01:12:53]    [01:12:53] matched commits with identical files: 1994 of 5073 (older ones differ only by the .gitattributes line)
+[01:13:01]    [01:13:01] created 24 commits, by commit date: 2026-10-19=1, 2026-10-21=2, 2026-10-22=2, 2026-10-29=5, 2026-10-30=7, 2026-11-02=1, 2026-11-03=6
+[01:15:08]    [01:15:08] verify: 24 of 24 created commits differ from Finastra only in .gitattributes/ui/core
+[01:15:08]    [01:15:08] LFS objects referenced by new commits: 0 (missing locally: 0)
+[01:15:19]    [01:15:19] plan: create=7, fast-forward=1, leave: only in tcm-pilot=4, same=53
+[01:15:19]    [01:15:19] === done (nothing pushed) ===
+[01:15:20] === local refresh finished - review plan.csv, then re-run with -Push ===

@@ -1,0 +1,152 @@
+﻿
+[GH-003] (In Progress, Medium) SPH-sophis LFS objects missing
+  Expected: the SPH-sophis POC can be cloned with LFS objects available for the default branch and historical commits. Actual: cloning and browsing produced missing LFS object errors. Sebastian was validating source-code integrity for historical product versions; Jason noted that migrating only recent LFS objects could explain missing links.
+  >> Logs were shared. A dedicated LFS pass across all refs was initiated; completion and retest confirmation were pending.
+
+[GH-004] (Triaged, Medium) ARC-almonde LFS files incomplete
+  Expected: all LFS content is available after migration. Actual: ARC-almonde was reported as missing LFS files.
+  >> Gareth stated existing LFS files were present and only recently added files were missing. Delta synchronization and follow-up validation were still needed.
+
+[GH-006] (In Progress, Medium) Repository admin permissions not preserved
+  Expected: authorized user retains equivalent access to SUM-summit_cp. Actual: prior admin rights and settings visibility were not available in tcm-pilot.
+  >> Access provisioning in progress. 10/9 meeting held with GitHub Support surrounding user account setup. 
+
+[GH-007] (Triaged, Medium) Migration failed because of file above push limit
+  Expected: repository migration completes. Actual: migration failed because ref/demo/singular/demo-rbc/src/main/data/dataset.zip remained in Git history at 841,362,386 bytes, above the push limit.
+  >> The source item suggested using Git LFS or removing the file from Git history before retrying. Gareth has identified a manual way to migrate repositories above the push limit. Over-limit migration method now established and proven (git lfs migrate im...
+
+[GH-008] (In Progress, Low) Pull request authors not attributed correctly
+  Expected: migrated pull requests retain original authors and can be filtered by author. Actual: pull requests appeared under a migration or placeholder identity.
+  >> Mannequin reclamation was planned as migration cleanup; retesting was pending.
+
+[GH-011] (New, Medium) Team code review settings not migrated
+  Expected: team code review assignment settings match fin-tcm. Actual: settings differed in tcm-pilot.
+
+[GH-014] (New, Medium) GitHub-to-Jira links and backfill sync require confirmation
+  Expected: GitHub pull requests retain navigation to Jira tickets, Jira issue keys and numbering remain preserved, and a post-migration backfill sync for the GitHub with Jira app is completed. Actual: the source requests confirmation and does not record completion.
+  >> The item was described as required, but there has been no confirmation that the integration or backfill sync was completed.
+
+[GH-016] (New, Medium) Confirm migration scope and timing for repository configurations
+  Confirm whether repository configurations, including branch protection rules, are in migration scope and when they will be available.
+  >> As of 10/14 rulesets have been applied across all repositories in tcm-pilot. This requires Product Champion validation. 
+
+[GH-017] (New, Low) Confirm user-rights mapping scope and timing
+  Confirm whether user-rights mapping is in migration scope and when repository admin privileges will be available.
+
+[GH-018] (New, Medium) Make named repositories available for expanded testing
+  Request for named repositories to be available in the tcm-pilot-test organization for more extensive testing.
+
+[GH-019] (New, Medium) Branch protection rules not migrated for SUM-summit
+  Expected: branch protection rules and rulesets match the source repository. Actual: the ruleset list in tcm-pilot/SUM-summit is empty while rules exist in fin-tcm/SUM-summit.
+  >> The following is missing as of 10/19 - Christophe Curay: KON-Kplus-front not migrated-missing 7761 branches KON-kondor-enablement not migrated-missing 8 branches TO-treasury-charts diff onto 68 branches KON-kplus-back diff onto 61 branches TO-treasur...
+
+[GH-020] (In Progress, Low) KON-kplus-front repository remains empty
+  Expected: migrated repository contains its source content. Actual: KON-kplus-front was reported as still empty.
+  >> Gareth stated that the repository is an LFS repository with files that exceeded the GitHub Enterprise Importer limit and that he was working on it. Lukasz Garstecki requested Gareth to contact Frederic Nicolas from Teciem and Shivendra Dwivedi from F...
+
+[GH-021] (In Progress, High) Confirm whether SVC-TKTBUILD_finastra was migrated
+  Fusion Invest uses SVC-TKTBUILD_finastra with a runner for automated builds. Confirmation was requested that the account was migrated to a Teciem account.
+  >> This is included in Vlad's provision
+
+[GH-024] (New, Low) Testing deadline is not achievable
+  The deadline to finish testing tomorrow is not achievable. The tests will be long and we still do not have the main Kondor+ repository. 
+  >> A clone of KON-kplus-front in organization tcm-pilot-test is necessary, which is a dirty copy and it might be changed in tests without any current or future impact on the production. Huy-Chu Kuoy, Paul Jouët, Rafal Prasal, and Lukasz Garstecki were n...
+
+[GH-025] (New, Medium) Validation Testing Tooling Request 
+  Lukasz has requested Gareth to use a tool to automatically compare Finastra GitHub repos with the migrated Teciem GitHub repos and check that for revision in which the migration happened the following are in both repos: - Content (folders, files, etc.) - Pull requests, including comments, etc. - Commits - Branches - Tags - Settings, including Access Rights, workflows, etc.
+  >> Gareth has a script rather than a tool to run the suggested comparison. 
+
+[GH-026] (New, Low) GitHub Desktop testing guidance and team maintainer access requested
+  Expected/requested: The Summit QA Product Champion can test GitHub Desktop against migrated repositories and has maintainer access to the applicable GitHub teams. Actual: The Product Champion requested confirmation that GitHub Desktop could be tested, instructions for connecting with the Teciem identity, and maintainer access to the identified teams.
+
+[GH-027] (New, Low) Confirm migration and cutover approach for self-hosted runners and workflows
+  Expected/requested: Product Champions understand when self-hosted runners and associated workflows will be migrated and how downtime will be avoided. Actual: Product Champions requested an update on runner and workflow readiness and noted that heavily used Finastra runners could not sustain unplanned downtime. A trial using a lower-impact SPH repository was offered.
+  >> Runners, secrets, teams, and collaborators were not part of the first migration phase. No final runner migration or testing confirmation was recorded. As of 10/14/2026, GitHub Actions and self-hosted runners were not visible for SPH-sophis and reques...
+
+[GH-028] (In Progress, Low) Confirm service-account provisioning, PAT rotation, and testing readiness
+  Expected/requested: Required service accounts are provisioned in the Teciem environment, can access migrated repositories, and support the required PAT rotation process. Actual: Product Champions requested confirmation for multiple service accounts and asked when service-account access could be tested. They noted that certain accounts use PATs and require manual login for PAT rotation every 30 days.
+  >> Service accounts will be addressed during identity provisioning which is currently underway. Product Champions are requested to review the shared service account list for validation. 
+
+[GH-029] (New, Low) Provide procedure for migrating personal GitHub repositories
+  Expected/requested: Users with personal GitHub repositories receive clear migration guidance. Actual: A Product Champion asked what would happen to personal repositories and whether a procedure existed for migrating them.
+
+[GH-031] (New, Low) Confirm migration behavior for Entra ID-backed GitHub teams
+  Expected/question: Determine whether GitHub teams backed by Entra ID groups will transfer with their backing groups or be converted to native GitHub teams. Actual: A Product Champion cited the SUM_R team and its backing Entra group as an example requiring clarification.
+
+[GH-032] (New, Low) Exclude five unused SUMTF repositories from migration
+  The repositories were not used and should be marked in the inventory as repositories that should not be migrated.
+  >> Repositories identified for exclusion: SUMTF-v6.2.x_old, SUMTF-v6.4.x_old, SUMTF-v6.3_insight_old, SUMTF-v6.3.x_old, and SUMTF-scripts_input_files_old.
+
+[GH-033] (In Progress, High) KON-kondor-enablement marked complete but repository is empty
+  Expected: A repository marked “migration complete” contains its migrated content. Actual: KON-kondor-enablement is marked migration complete, but its tcm-pilot repository is empty.
+  >> Many branches are still missing as of 10/19
+
+[GH-034] (In Progress, High) TO-treasury-installer marked complete but repository is empty
+  Expected: A repository marked “migration complete” contains its migrated content. Actual: TO-treasury-installer is marked migration complete, but its tcm-pilot repository is empty.
+  >> Tomasz Gajowiak identified as the repository champion. Many branches are still missing as of 10/19
+
+[GH-035] (New, High) OPICS-programmers repository is empty
+  Expected: OPICS-programmers contains migrated repository content. Actual: The migrated OPICS-programmers repository is empty.
+
+[GH-036] (New, Medium) CodeQL Security & Quality findings are not displayed
+  Expected: CodeQL Security & Quality displays the expected vulnerability findings in migrated repositories. Actual: The expected vulnerability findings are not displayed.
+
+[GH-037] (New, Low) Confirm migration policy for GitHub Actions run history
+  Expected/question: Product Champions understand whether historical GitHub Actions runs are included in the migration. Actual: A Product Champion asked what the migration policy is for action-run history.
+
+[GH-038] (New, Low) Confirm continued access to Finastra GitHub after November 14, 2026
+  A Product Champion requested confirmation of the access end date. The ensuing discussion identified uncertainty around device and connectivity restrictions, but no authoritative answer was recorded.
+  >> Access involves GitHub rather than direct Finastra network access, but participants did not provide a confirmed access policy or end date.
+
+[GH-039] (New, High) GitHub Actions workflows not visible after migration - Fusion Invest Team
+  Fusion Invest team reported workflow YAML files have been successfully migrated and are present in repositories. Workfows, however, are not appearing in the GitHub Actions view. Repository settings are configured to allow all actions and reuable workflows, but workflows remain unavailable for testing and execution. 
+
+[GH-040] (New, High) Self-hosted runners not migrating to target GitHub environment
+  Fusion Invest team reported Self-hosted runers configurations are not being migrated to the new GitHub environment. Although YAML files are present, workflows cannot be executed because required self-hosted runners are unavailable. 
+  >> List of runners extracted. Working on getting runners migrated. 
+
+[GH-041] (New, Medium) Workflow run history preservation 
+  Fusion Invest product team requested confirmation that GitHub Actions workflow execution and run histories will be available following migration. 
+
+[GH-042] (New, Medium) GitHub user accounts not found in the Teciem GitHub instance
+  During the Copilot Licensing provisioning compelted on 10/15, it was discovered that 9 of the 509 user accounts needing Copilot licenses did not exist in the GitHub instance. These accounts must be migrated and provisioned Copilot Licenses. 
+
+[GH-044] (New, Medium) Pull request viewer identitied displayed incorrectly after migration 
+  Migrated pull request reviewers are displayed with the GitHub/Archive prefix rather than the corresponding reviewer identity. Review history has been retained, but reviewer names are not presented correctly in the GitHub user intefrace. The expected behavior is for only the actual username to be displayed without the GitHub/Archive prefix.
+
+[GH-045] (New, Low) Question: Will the migration team do a diff themselves? 
+  The product champion noted that there are over 100 repositories which is time consuming, and he does not have the proper tooling to complete the diff. 
+
+[GH-046] (New, Medium) Product champion lacks access 
+  Ioan Acristei does not have rights in any of the repositories in tcm-pilot. 
+
+[GH-048] (New, Medium) Product champion lacks access 
+  Thomas Wittmann does not have access to the settings on old or new repositories. Setting access is required to check ownerships, hooks, etc. 
+
+[GH-049] (New, Medium) User  lacks access to necessary repositories
+  Jeremy Boutte does not hae access in tcm-pilot to either FCGC-python-quant-library or FCGC-pricing-analytics-quant-validation. 
+
+[GH-050] (New, Medium) Request for repo to be migrated
+  Request to migrate the fin-tcm repository RISK-cmr
+
+[GH-051] (New, Medium) User lacks access to SUM-summit_cp 
+  Maria Cristi does not have the same level of access rights to the SUM-summit_cp repository as he had in the previous environment. 
+
+[GH-052] (New, Medium) Request for additional repos to be migrated
+  Christophe Curay has requested the following repositories for migration: claude-usage-tracking FCGC-pricing-analytics KON-doc-kondor-archive KON-kondor-enablement KON-kplus-back-specs KON-kplus-front KON-kzone-mcp KON-mitra_claude RISK-cmr TCMLIB-teciem-starters-ai-skill VAL-input-gateway VAL-workflow-controller
+
+[GH-053] (New, High) Repositories migrated to tcm-pilot are missing, have problematic branches, and empty targets. 
+  797 repositories checked + 3 missing in tcm-pilot FNX-BO-bank-account-balance KQ-kv-test-framework SUM-summit-cli-nenyi + 5 problematic branches MAFTP-fpp-vaas-che SUMTF-QA-AgenticAI-Skills MAFTP-fabric-bom MAFTP-fpp-fusioncapital RISK-fr-bash-scripts + 6 empty targets FNX-pwa-template KON-CodeQL-reports KQ-kondorup-test-framework KQ-kondorup-upgrade-tests KQ-qa_kenvng SUMTF-WebUI 21 not migrated (2.6%) 5 branch problems (0.6%) 109 not up-to-date (13,7%) 662 ready (83,1%)
+  >> Resync is in progress
+
+[] (New, Low) Migration scope question 
+  Is the migration effort only about moving repos and users? Or will it also inlcude rationalization of teams, members, and permissions? 
+
+[] (New, Low) Question: (out of scope) 
+  regarding FFC, since the bitbucket migration it has been a bit of a mess in my opinion. Many people seem to have access to our repo's. read/write and admin MCH_TEAM , MCH_READ, MCH_WRITE, MCH_ADMIN . I've added FFC_TEAM myself with a short list of ppl who should have access but it was never clear to me if we should remove the MCH_* teams from gh at some point?
+
+[] (New, High) Re-syncs are not effective 
+  Example from the branches last revision comparator: Repository: FABCOM-regulatory before sync diff = 18 ok = 39 after sync: diff = 24 ok = 39 There has been no change and additional branches many other repositories are facing similar issues. 
+
+[] (New, Medium) user lacks access to tcm-pilot repos
+  Cristian Ilie lacks access to necessary repos in tcm-pilot. 

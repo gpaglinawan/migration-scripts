@@ -1,0 +1,7 @@
+﻿[01:04:15] === copy C:\kon-migration\diag-MAFTP-fpp-vaas-che-20261104 -> C:\kon-migration\bigfiles-MAFTP-fpp-vaas-che\MAFTP-fpp-vaas-che-lfs.git ===
+[01:04:19] refs: 14
+[01:04:19] git filter-repo (blobs > 104857600 bytes -> LFS) ...
+[01:05:39] filter-repo exit=0 in 1 min
+[01:05:39] refs after: 14
+[01:05:40] LFS objects in copy: 3 (0.44 GB)
+[01:05:40] === done ===

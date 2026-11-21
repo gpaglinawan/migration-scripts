@@ -1,0 +1,20 @@
+﻿[03:20:23] === clone fin-tcm/MAFTP-fpp-fusioncapital -> C:\kon-migration\MAFTP-fpp-fusioncapital.git ===
+[03:20:27] git fetch (heads + tags) ...
+From https://github.com/fin-tcm/MAFTP-fpp-fusioncapital
+[03:22:48] git fetch exit=0 in 2 min
+[03:22:49] branches=114 tags=214
+[03:22:49]   count: 0
+[03:22:49]   size: 0 bytes
+[03:22:49]   in-pack: 296930
+[03:22:49]   packs: 1
+[03:22:49]   size-pack: 494.01 MiB
+[03:22:49]   prune-packable: 0
+[03:22:49]   garbage: 0
+[03:22:49]   size-garbage: 0 bytes
+[03:22:49] git lfs fetch --all ...
+1 object found, done.
+Fetching all references...
+[03:23:27] git lfs fetch exit=0 in 1 min
+[03:23:27] LFS inventory (all refs) ...
+[03:24:01] LFS objects referenced=0 present=0 missing=0 localSize=0.00 GB
+[03:24:01] === done ===

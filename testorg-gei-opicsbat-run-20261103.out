@@ -1,0 +1,52 @@
+﻿[15:41:39] === GEI tcm-pilot -> tcm-pilot-test : 1 to migrate, 0 already present ===
+[15:41:46]   queued OPICS-opicsbat (RM_kgDaACRhZjZlZGRmMS0xNDRlLTQ0OGUtYjliMS0xODhkOGU1NTA1MGE)
+Invoke-RestMethod : The underlying connection was closed: A connection that was expected to be kept alive was closed 
+by the server.
+At C:\kon-migration\scripts\test-org-gei.ps1:38 char:11
++     $s = (Invoke-RestMethod -Method POST https://api.github.com/graph ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], WebExc 
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+ 
+Invoke-RestMethod : The underlying connection was closed: A connection that was expected to be kept alive was closed 
+by the server.
+At C:\kon-migration\scripts\test-org-gei.ps1:38 char:11
++     $s = (Invoke-RestMethod -Method POST https://api.github.com/graph ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], WebExc 
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+ 
+Invoke-RestMethod : The underlying connection was closed: A connection that was expected to be kept alive was closed 
+by the server.
+At C:\kon-migration\scripts\test-org-gei.ps1:38 char:11
++     $s = (Invoke-RestMethod -Method POST https://api.github.com/graph ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], WebExc 
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+ 
+Invoke-RestMethod : The underlying connection was closed: A connection that was expected to be kept alive was closed 
+by the server.
+At C:\kon-migration\scripts\test-org-gei.ps1:38 char:11
++     $s = (Invoke-RestMethod -Method POST https://api.github.com/graph ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], WebExc 
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+ 
+Invoke-RestMethod : The underlying connection was closed: A connection that was expected to be kept alive was closed 
+by the server.
+At C:\kon-migration\scripts\test-org-gei.ps1:38 char:11
++     $s = (Invoke-RestMethod -Method POST https://api.github.com/graph ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], WebExc 
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+ 
+[16:11:43]   OPICS-opicsbat : SUCCEEDED 
+[16:15:36]   OPICS-opicsbat lfs fetch: Fetching all references...
+[16:16:27]   OPICS-opicsbat lfs push: Uploading LFS objects: 100% (2/2), 1.5 GB | 31 MB/s, done.
+[16:16:27]   OPICS-opicsbat : 2 LFS objects copied
+[16:16:27] === done: 1 succeeded, 0 not ===

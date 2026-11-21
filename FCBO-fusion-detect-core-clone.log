@@ -1,0 +1,20 @@
+﻿[03:01:34] === clone fin-tcm/FCBO-fusion-detect-core -> C:\kon-migration\FCBO-fusion-detect-core.git ===
+[03:01:37] git fetch (heads + tags) ...
+From https://github.com/fin-tcm/FCBO-fusion-detect-core
+[03:02:53] git fetch exit=0 in 1 min
+[03:02:54] branches=256 tags=60
+[03:02:54]   count: 0
+[03:02:54]   size: 0 bytes
+[03:02:54]   in-pack: 26293
+[03:02:54]   packs: 1
+[03:02:54]   size-pack: 970.54 MiB
+[03:02:54]   prune-packable: 0
+[03:02:54]   garbage: 0
+[03:02:54]   size-garbage: 0 bytes
+[03:02:54] git lfs fetch --all ...
+1 object found, done.
+Fetching all references...
+[03:03:05] git lfs fetch exit=0 in 0 min
+[03:03:06] LFS inventory (all refs) ...
+[03:03:24] LFS objects referenced=0 present=0 missing=0 localSize=0.00 GB
+[03:03:24] === done ===

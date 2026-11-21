@@ -1,0 +1,20 @@
+﻿[22:46:22] === clone fin-tcm/KON-doc-kondor-archive -> C:\kon-migration\KON-doc-kondor-archive.git ===
+[22:46:24] git fetch (heads + tags) ...
+From https://github.com/fin-tcm/KON-doc-kondor-archive
+[22:49:43] git fetch exit=0 in 3 min
+[22:49:44] branches=1 tags=0
+[22:49:44]   count: 0
+[22:49:44]   size: 0 bytes
+[22:49:44]   in-pack: 30033
+[22:49:44]   packs: 1
+[22:49:44]   size-pack: 5.45 GiB
+[22:49:44]   prune-packable: 0
+[22:49:44]   garbage: 0
+[22:49:44]   size-garbage: 0 bytes
+[22:49:44] git lfs fetch --all ...
+1 object found, done.
+Fetching all references...
+[22:49:50] git lfs fetch exit=0 in 0 min
+[22:49:50] LFS inventory (all refs) ...
+[22:49:56] LFS objects referenced=0 present=0 missing=0 localSize=0.00 GB
+[22:49:56] === done ===

@@ -1,0 +1,184 @@
+﻿[15:52:15] === GEI tcm-pilot -> tcm-pilot-test : 52 to migrate, 0 already present ===
+[15:52:21]   queued FST-aletti (RM_kgDaACRkMjdlZjk1MC1kY2RjLTRjYmMtODU1Yy0wOTYxNTI5OTFjMDc)
+[15:52:27]   queued FST-axabank (RM_kgDaACQ5ZDI3NjNmNy0zZDg2LTRhYTUtYTkwMi00MDYzMjFkZTgxYmM)
+[15:52:31]   queued FST-boci (RM_kgDaACRhYTBmODY4ZS1iYWE1LTQ0ZDAtYWQ5OS1jZDg5ODYzZjhlOGU)
+[15:52:36]   queued FST-cic (RM_kgDaACQzYTM0YmI5OC0zMjc0LTQ3YmEtYjdjZS03MmMyOTliZjczODg)
+[15:52:41]   queued FST-clsa (RM_kgDaACQ4YjdjMWMxMS0yNmJhLTQ2NTQtYmViOS0zZTQ0MDUzMDFkZTc)
+[15:52:46]   queued FST-gtja (RM_kgDaACQ5ZjM3NDNkYS01MDk2LTQzMjItYjczMi1lMGY2NWM2YjY3YTU)
+[15:52:52]   queued FST-hsbc (RM_kgDaACRiMWQ3YTNlOS1iYjliLTQwNDgtODYyMC0yMDYzN2M4MTVmYjU)
+[15:52:57]   queued FST-ing (RM_kgDaACRkZDI3YzRjNC1kN2E0LTQ0NjUtOTUwOC0xMDEwNWZhNGQwOTI)
+[15:53:02]   queued FST-natixis (RM_kgDaACQxZTJiMjRhMy1lMjUwLTQ2ZDUtYmUzZS0wYmFlODMyMGMxYWY)
+[15:53:07]   queued FST-rbc (RM_kgDaACQ1MmE4Yjk5Ny0wNWExLTRiZGUtODkwMS1jNzUyN2ZjNDViYjE)
+Invoke-RestMethod : The underlying connection was closed: A connection that was expected to be kept alive was closed 
+by the server.
+At C:\kon-migration\scripts\test-org-gei.ps1:38 char:11
++     $s = (Invoke-RestMethod -Method POST https://api.github.com/graph ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], WebExc 
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+ 
+[15:55:20]   FST-cic : SUCCEEDED 
+[15:55:30]   queued FST-td (RM_kgDaACQxZDc0MmYyOC01NmVkLTRmYmQtODc4ZS0zN2RhMTMyMzAxMTU)
+[15:56:39]   FST-gtja : SUCCEEDED 
+[15:56:40]   FST-clsa : SUCCEEDED 
+[15:56:46]   queued FT-anthos (RM_kgDaACQ4ZWIyNDQyNi0zNDZhLTQwOWItOTczMS04ZWFhMWViYmNiNmE)
+[15:56:51]   queued FT-assenagon (RM_kgDaACQyZjVjODcxOS1mMzZiLTQ3ZWItYmZjZS02OTNlZWVmMWYyNDc)
+[15:57:22]   FST-natixis : SUCCEEDED 
+[15:57:30]   queued FT-athene (RM_kgDaACQ5ZmQzM2Y0Yy0wMGRhLTRmMDItYjU2Zi0xZTIxODY3OWU4Zjc)
+Invoke-RestMethod : The underlying connection was closed: A connection that was expected to be kept alive was closed 
+by the server.
+At C:\kon-migration\scripts\test-org-gei.ps1:38 char:11
++     $s = (Invoke-RestMethod -Method POST https://api.github.com/graph ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], WebExc 
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+ 
+[15:58:36]   FST-td : SUCCEEDED 
+[15:58:44]   queued FT-athene-jobs (RM_kgDaACRlYzliZTRlMy1lMzg3LTQ4NDUtODdhYi1hZDFjZTM0ZWUxNmU)
+[15:59:17]   FST-axabank : SUCCEEDED 
+[15:59:24]   queued FT-audicapital (RM_kgDaACQ5NWVkYTY4NS1jMGFlLTQ4ZTEtOTk5Mi0zMzQyZjM2ODUyNGM)
+[16:01:06]   FST-boci : SUCCEEDED 
+[16:01:15]   queued FT-bankofbeirut (RM_kgDaACQ5ZDM2MGExMS01NmIyLTQ0YWYtOTBlMi1lNDdjNjdlNDVmMTI)
+[16:01:48]   FST-aletti : SUCCEEDED 
+[16:01:49]   FT-anthos : SUCCEEDED 
+[16:01:49]   FST-hsbc : SUCCEEDED 
+[16:01:55]   queued FT-blueskygroup (RM_kgDaACRiM2M0NjFjNi1hOTgwLTQ1ZmItYWZjOC1hYjFjNTI0ODdkZWQ)
+[16:02:00]   queued FT-bmce (RM_kgDaACRlYTVmY2FiYy1hODgyLTRhMmUtODY4YS01ZTIyODljMGQ1NmM)
+[16:02:05]   queued FT-bmce-internal (RM_kgDaACRmYWIwZTA4ZS0zN2FiLTRmYmMtODhlYy00ZGM4ZWI2Y2UzOWU)
+[16:02:37]   FST-rbc : SUCCEEDED 
+[16:02:45]   queued FT-bnpp-cardif (RM_kgDaACRkMDA4MTVhNy0xZWE1LTQxM2ItOGFlNS01YTVhZDJlYzdjNDU)
+[16:03:16]   FT-audicapital : SUCCEEDED 
+[16:03:19]   FT-athene-jobs : SUCCEEDED 
+[16:03:25]   queued FT-bnpp-cardiff-creditlimit (RM_kgDaACQ3NmJmMGM3MS1kMDFlLTRkNDctOWM0MC01M2ZhYjdlYjNkN2E)
+[16:03:31]   queued FT-boussard (RM_kgDaACRhYzU3ODdmOC1jYjkxLTQ1MTItOThhZC0zMzllODQxYzk1MDA)
+[16:04:36]   FST-ing : SUCCEEDED 
+[16:04:38]   FT-assenagon : SUCCEEDED 
+[16:04:46]   queued FT-btg (RM_kgDaACRlZWIwY2NkYi1jODRiLTQ4NTItYTQ2YS0xZGE1ZWExMDQ1Nzk)
+[16:04:51]   queued FT-Candriam (RM_kgDaACQ5NTg5ZTg4NC03M2IzLTQyNTgtODg2MS00NGJlYTYzNTE3NTY)
+[16:05:22]   FT-bankofbeirut : SUCCEEDED 
+[16:05:23]   FT-bmce : SUCCEEDED 
+[16:05:31]   queued FT-cattolica (RM_kgDaACRiNzMzMjc5Ni1hNTdlLTQ5YmItOTU3NS1iZmRmYTliODdkZjY)
+[16:05:36]   queued FT-cfggestion (RM_kgDaACQ1Nzk2YjI5MC1hZWQ4LTQzZmEtOGY2ZS1hMjQ2M2FmMjQwMDg)
+[16:06:10]   FT-boussard : SUCCEEDED 
+[16:06:15]   queued FT-demos (RM_kgDaACRlZDRkNGI0MS1lOGE1LTQzOTQtOTU5Ny0xNjU0ZTNkOTg1Y2M)
+[16:07:57]   FT-Candriam : SUCCEEDED 
+[16:08:05]   queued FT-eliottadvisors (RM_kgDaACRlNmYwYzZmMC1hOTQzLTQxZTYtYWY1ZC0zNjNiYThmYTQ1ZDQ)
+[16:09:11]   FT-cfggestion : SUCCEEDED 
+[16:09:20]   queued FT-fi_bsg_tkt (RM_kgDaACQ3NGViZDljZC05MDQzLTQwZTktODkyZS04ZDczOTk4ZmE2NjA)
+Invoke-RestMethod : The underlying connection was closed: A connection that was expected to be kept alive was closed 
+by the server.
+At C:\kon-migration\scripts\test-org-gei.ps1:38 char:11
++     $s = (Invoke-RestMethod -Method POST https://api.github.com/graph ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], WebExc 
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+ 
+[16:12:11]   FT-btg : SUCCEEDED 
+[16:12:19]   queued FT-gog (RM_kgDaACQ5ZWEyMTlhOS04OTUzLTRjYzItODMzMi01Mzc2ZGUyYTk4ZDc)
+[16:13:28]   FT-blueskygroup : SUCCEEDED 
+[16:13:34]   queued FT-idb (RM_kgDaACQyZmEzNDM4ZS0zODg3LTQ3ZGMtYmQ5Ny1mZjcxNTBiY2I1ZGQ)
+[16:14:05]   FT-bnpp-cardif : SUCCEEDED 
+[16:14:06]   FT-athene : SUCCEEDED 
+[16:14:15]   queued FT-ilmarinen (RM_kgDaACRiN2EyZTY5MS05NzJlLTRjMWQtYjg3OS02ZTNjMWI2NjY0YTY)
+[16:14:21]   queued FT-IT (RM_kgDaACQ3YjQwNDU1OS1kODJlLTQxZGUtYmQ4My1jZmZhNTk2ODUyYjc)
+[16:14:54]   FT-cattolica : SUCCEEDED 
+[16:15:02]   queued FT-jgp (RM_kgDaACQ3ZDk4YzIxZi1iODhjLTQzYTYtYTA5Yi1iMjFhNDliNWQ4ZTY)
+[16:16:08]   FT-eliottadvisors : SUCCEEDED 
+[16:16:17]   queued FT-kamco (RM_kgDaACRhZTUyNTNlNi0xMjYzLTQxZWQtYWNlYy0xMDNiMDY2NTQ0ZjQ)
+[16:16:51]   FT-bmce-internal : SUCCEEDED 
+[16:16:57]   queued FT-kwap (RM_kgDaACQyN2UwYjBlNi1jNjkxLTQ2NmYtODVhZS1mZWIzNDcwNTc4OGI)
+[16:17:27]   FT-IT : SUCCEEDED 
+[16:17:37]   queued FT-Mada (RM_kgDaACQxYmJjY2E5NS1hOTlmLTRiMGItODNiYS1mN2NmNDExNjkzZDE)
+[16:18:42]   FT-gog : SUCCEEDED 
+[16:18:52]   queued FT-mediolanum (RM_kgDaACQ2ZTZhZTNiMS0yNjJiLTQyMDQtYjQ3NC01YTRlZWEwNDQwYmY)
+[16:19:24]   FT-kamco : SUCCEEDED 
+[16:19:33]   queued FT-MRX (RM_kgDaACQyMzk3ZDRmYS1lYzM2LTQ2NzktODYwYS01MDgzZTEzMWUzZTQ)
+[16:20:40]   FT-bnpp-cardiff-creditlimit : SUCCEEDED 
+[16:20:48]   queued FT-northview (RM_kgDaACRlZDljNmYzMC04ZTIzLTRiYjQtYmFjYy1mYWJhYzc5OTc4OTY)
+[16:21:20]   FT-ilmarinen : SUCCEEDED 
+[16:21:29]   queued FT-ofi (RM_kgDaACQwYzc1ZWEzMC1mMjBmLTQ0ZWEtODZlMy04MzcwMTdmNTdmMGE)
+[16:22:34]   FT-MRX : SUCCEEDED 
+[16:22:36]   FT-kwap : SUCCEEDED 
+[16:22:37]   FT-mediolanum : SUCCEEDED 
+[16:22:43]   queued FT-oliveiratrust (RM_kgDaACQ2Y2RhNWM3NC0zNzczLTQxNDItYTIyYS02NGIwZDNmNmU4ZWI)
+[16:22:49]   queued FT-peam (RM_kgDaACRkNDVmNDY1Zi05MGRjLTQ0OWEtYWQ1My1hZjE5YzNhNjk4ODI)
+[16:22:54]   queued FT-qia (RM_kgDaACQ3NGZhMmVkZC02MzRkLTRmYzUtODVlNS03ZTE0NzFjMTZlMDI)
+[16:23:27]   FT-fi_bsg_tkt : SUCCEEDED 
+[16:23:27]   FT-demos : SUCCEEDED 
+[16:23:35]   queued FT-qsuper (RM_kgDaACQzNmMyZDUzNC02NjZhLTQ2MDUtOGJjNS03MzFkNDYyNzExOTE)
+[16:23:41]   queued FT-sample (RM_kgDaACQ5MDIwN2Q2My1lMGYxLTRhNjctYTM1OS00ZDk0MzU2Njg2ZTY)
+[16:26:31]   FT-peam : SUCCEEDED 
+[16:26:32]   FT-oliveiratrust : SUCCEEDED 
+[16:26:36]   FT-qia : SUCCEEDED 
+[16:26:40]   queued FT-sharedfiles (RM_kgDaACRmZDFmOWMzYS00MmYxLTQ2MzEtODg3ZS1iZjE3ZDYyZTMzZWI)
+[16:26:45]   queued FT-tikehau (RM_kgDaACRjZDY4N2NlNS04MjNmLTQ3OGQtYWQyOS01YjMyYTM5ZWVmYzM)
+[16:26:51]   queued FT-unicredit (RM_kgDaACRhZTdhOGZiYy1lYWM3LTRmNzItODVmZi05ZmM1ZDYzMGY4ZmQ)
+[16:27:22]   FT-qsuper : SUCCEEDED 
+[16:27:31]   queued PS-genAI (RM_kgDaACRhMTk4ZmFlMy1jM2U1LTRkZjEtOGQwZi02YTYxZmZiYzllMWQ)
+[16:28:36]   FT-ofi : SUCCEEDED 
+[16:28:46]   queued FST-BEA (RM_kgDaACRkOGIzYmE5ZS1kZDUzLTQ0MDYtYjkyMC1kNTc2ZjNmZmMzNDM)
+[16:29:19]   FT-jgp : SUCCEEDED 
+[16:29:54]   FT-tikehau : SUCCEEDED 
+[16:29:54]   FT-sharedfiles : SUCCEEDED 
+Invoke-RestMethod : The underlying connection was closed: A connection that was expected to be kept alive was closed 
+by the server.
+At C:\kon-migration\scripts\test-org-gei.ps1:38 char:11
++     $s = (Invoke-RestMethod -Method POST https://api.github.com/graph ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], WebExc 
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+ 
+[16:31:32]   FT-northview : SUCCEEDED 
+[16:31:33]   FT-sample : SUCCEEDED 
+Invoke-RestMethod : The underlying connection was closed: A connection that was expected to be kept alive was closed 
+by the server.
+At C:\kon-migration\scripts\test-org-gei.ps1:38 char:11
++     $s = (Invoke-RestMethod -Method POST https://api.github.com/graph ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], WebExc 
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+ 
+[16:33:10]   FT-Mada : SUCCEEDED 
+[16:33:11]   FT-idb : SUCCEEDED 
+[16:33:42]   FST-BEA : SUCCEEDED 
+[16:35:45]   PS-genAI : SUCCEEDED 
+Invoke-RestMethod : The underlying connection was closed: A connection that was expected to be kept alive was closed 
+by the server.
+At C:\kon-migration\scripts\test-org-gei.ps1:38 char:11
++     $s = (Invoke-RestMethod -Method POST https://api.github.com/graph ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], WebExc 
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+ 
+Invoke-RestMethod : The underlying connection was closed: A connection that was expected to be kept alive was closed 
+by the server.
+At C:\kon-migration\scripts\test-org-gei.ps1:38 char:11
++     $s = (Invoke-RestMethod -Method POST https://api.github.com/graph ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], WebExc 
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+ 
+Invoke-RestMethod : The underlying connection was closed: A connection that was expected to be kept alive was closed 
+by the server.
+At C:\kon-migration\scripts\test-org-gei.ps1:38 char:11
++     $s = (Invoke-RestMethod -Method POST https://api.github.com/graph ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], WebExc 
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+ 
+[16:45:25]   FT-unicredit : SUCCEEDED 
+[16:46:51]   FST-ing lfs fetch: Fetching all references...
+[16:47:14]   FST-ing lfs push: Uploading LFS objects: 100% (5/5), 757 MB | 43 MB/s, done.
+[16:47:14]   FST-ing : 5 LFS objects copied
+[16:53:08]   FT-bmce lfs fetch: Fetching all references...
+[16:54:22]   FT-bmce lfs push: Uploading LFS objects: 100% (20/20), 5.9 GB | 87 MB/s, done.
+[16:54:22]   FT-bmce : 20 LFS objects copied
+[16:55:24] === done: 52 succeeded, 0 not ===

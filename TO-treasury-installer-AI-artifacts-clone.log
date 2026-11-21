@@ -1,0 +1,19 @@
+﻿[00:59:02] === clone fin-tcm/TO-treasury-installer-AI-artifacts -> C:\kon-migration\TO-treasury-installer-AI-artifacts.git ===
+[00:59:04] git fetch (heads + tags) ...
+From https://github.com/fin-tcm/TO-treasury-installer-AI-artifacts
+[00:59:07] git fetch exit=0 in 0 min
+[00:59:07] branches=1 tags=0
+[00:59:08]   count: 0
+[00:59:08]   size: 0 bytes
+[00:59:08]   in-pack: 497
+[00:59:08]   packs: 1
+[00:59:08]   size-pack: 4.43 MiB
+[00:59:08]   prune-packable: 0
+[00:59:08]   garbage: 0
+[00:59:08]   size-garbage: 0 bytes
+[00:59:08] git lfs fetch --all ...
+Fetching all references...
+[00:59:12] git lfs fetch exit=0 in 0 min
+[00:59:12] LFS inventory (all refs) ...
+[00:59:16] LFS objects referenced=0 present=0 missing=0 localSize=0.00 GB
+[00:59:16] === done ===

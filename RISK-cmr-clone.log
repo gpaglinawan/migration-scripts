@@ -1,0 +1,20 @@
+﻿[22:31:43] === clone fin-tcm/RISK-cmr -> C:\kon-migration\RISK-cmr.git ===
+[22:31:46] git fetch (heads + tags) ...
+From https://github.com/fin-tcm/RISK-cmr
+[22:35:10] git fetch exit=0 in 3 min
+[22:35:11] branches=75 tags=1106
+[22:35:11]   count: 0
+[22:35:11]   size: 0 bytes
+[22:35:11]   in-pack: 1497924
+[22:35:11]   packs: 1
+[22:35:11]   size-pack: 2.95 GiB
+[22:35:11]   prune-packable: 0
+[22:35:11]   garbage: 0
+[22:35:11]   size-garbage: 0 bytes
+[22:35:11] git lfs fetch --all ...
+1 object found, done.
+Fetching all references...
+[22:36:52] git lfs fetch exit=0 in 2 min
+[22:36:52] LFS inventory (all refs) ...
+[22:38:31] LFS objects referenced=0 present=0 missing=0 localSize=0.00 GB
+[22:38:31] === done ===

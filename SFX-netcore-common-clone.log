@@ -1,0 +1,19 @@
+﻿[02:59:53] === clone fin-tcm/SFX-netcore-common -> C:\kon-migration\SFX-netcore-common.git ===
+[02:59:58] git fetch (heads + tags) ...
+From https://github.com/fin-tcm/SFX-netcore-common
+[03:00:14] git fetch exit=0 in 0 min
+[03:00:16] branches=64 tags=0
+[03:00:17]   count: 0
+[03:00:17]   size: 0 bytes
+[03:00:17]   in-pack: 21863
+[03:00:17]   packs: 1
+[03:00:17]   size-pack: 105.90 MiB
+[03:00:17]   prune-packable: 0
+[03:00:17]   garbage: 0
+[03:00:17]   size-garbage: 0 bytes
+[03:00:17] git lfs fetch --all ...
+Fetching all references...
+[03:00:53] git lfs fetch exit=0 in 1 min
+[03:00:53] LFS inventory (all refs) ...
+[03:01:14] LFS objects referenced=0 present=0 missing=0 localSize=0.00 GB
+[03:01:14] === done ===

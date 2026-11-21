@@ -1,0 +1,22 @@
+﻿[21:58:46] === clone fin-tcm/FCGC-pricing-analytics -> C:\kon-migration\FCGC-pricing-analytics.git ===
+[21:59:19] git fetch (heads + tags) ...
+From https://github.com/fin-tcm/FCGC-pricing-analytics
+Expanding reachable commits in commit graph: 43161
+Expanding reachable commits in commit graph: 53918, done.
+[22:24:16] git fetch exit=0 in 25 min
+[22:24:17] branches=37 tags=0
+[22:24:17]   count: 0
+[22:24:17]   size: 0 bytes
+[22:24:17]   in-pack: 2054750
+[22:24:17]   packs: 1
+[22:24:17]   size-pack: 2.55 GiB
+[22:24:17]   prune-packable: 0
+[22:24:17]   garbage: 0
+[22:24:17]   size-garbage: 0 bytes
+[22:24:17] git lfs fetch --all ...
+1 object found, done.
+Fetching all references...
+[22:28:13] git lfs fetch exit=0 in 4 min
+[22:28:13] LFS inventory (all refs) ...
+[22:31:41] LFS objects referenced=0 present=0 missing=0 localSize=0.00 GB
+[22:31:41] === done ===

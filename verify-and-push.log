@@ -1,0 +1,117 @@
+﻿[00:06:57] ===== RISK-cmr =====
+[00:06:58]   [00:06:58] === verify C:\kon-migration\RISK-cmr-lfs.git against C:\kon-migration\RISK-cmr.git ===
+[00:06:59]   [00:06:59] 1. refs: original=1181 rewritten=1181 missing=0 extra=0
+[00:08:19]   [00:08:19] 2. large blobs preserved in LFS (sha256 + size): 13 of 13
+[00:16:01]   [00:16:01] 3. ref tips changed by rewrite: 1096; unexpected file differences: 0
+[00:16:55]   [00:16:55] 4. blobs > threshold reachable after rewrite: 0
+[00:16:55]   [00:16:55] === VERIFY PASSED (0 check(s) failed) ===
+[00:16:59]   [00:16:59] === push C:\kon-migration\RISK-cmr-lfs.git -> https://github.com/tcm-pilot/RISK-cmr.git ===
+[00:16:59]   [00:16:59] 1. LFS: pushing 13 objects
+[00:17:21]   [00:17:21]    Uploading LFS objects: 100% (13/13), 2.7 GB | 160 MB/s, done.
+[00:17:22]   [00:17:22] 2. release/356 : 4530 first-parent commits, 10 steps
+[00:17:40]   [00:17:40]    453/4530 ok in 18s
+[00:18:02]   [00:18:02]    906/4530 ok in 22s
+[00:18:14]   [00:18:14]    1359/4530 ok in 12s
+[00:18:28]   [00:18:28]    1812/4530 ok in 14s
+[00:18:36]   [00:18:36]    2265/4530 ok in 8s
+[00:18:43]   [00:18:43]    2718/4530 ok in 7s
+[00:18:50]   [00:18:50]    3171/4530 ok in 7s
+[00:18:59]   [00:18:59]    3624/4530 ok in 9s
+[00:19:18]   [00:19:18]    4077/4530 ok in 19s
+[00:19:29]   [00:19:29]    4530/4530 ok in 11s
+[00:19:29]   [00:19:29] 3. refs/heads : 74 refs in batches of 200
+[00:20:23]   [00:20:23]    74/74
+[00:20:24]   [00:20:24] 3. refs/tags : 1106 refs in batches of 200
+[00:20:33]   [00:20:33]    200/1106
+[00:20:43]   [00:20:43]    400/1106
+[00:20:51]   [00:20:51]    600/1106
+[00:20:59]   [00:20:59]    800/1106
+[00:23:00]   [00:23:00]    1000/1106
+[00:23:10]   [00:23:10]    1106/1106
+[00:23:13]   [00:23:13] 4. verify: local refs=1181 target refs=1181 mismatched/missing=0
+[00:23:13]   [00:23:13] === done in 6 min ===
+[00:23:14]   default branch: release/356
+[00:23:14]   DONE RISK-cmr
+[00:23:14] ===== OPICS-programmers =====
+[00:23:16]   [00:23:16] === verify C:\kon-migration\OPICS-programmers-lfs.git against C:\kon-migration\OPICS-programmers.git ===
+[00:23:18]   [00:23:18] 1. refs: original=40 rewritten=40 missing=0 extra=0
+[00:25:51]   [00:25:51] 2. large blobs preserved in LFS (sha256 + size): 13 of 13
+[00:26:15]   [00:26:15] 3. ref tips changed by rewrite: 39; unexpected file differences: 0
+[00:26:41]   [00:26:41] 4. blobs > threshold reachable after rewrite: 0
+[00:26:41]   [00:26:41] === VERIFY PASSED (0 check(s) failed) ===
+[00:26:46]   [00:26:46] === push C:\kon-migration\OPICS-programmers-lfs.git -> https://github.com/tcm-pilot/OPICS-programmers.git ===
+[00:26:47]   [00:26:47] 1. LFS: pushing 13 objects
+[00:28:04]   [00:28:04] 2. master : 13267 first-parent commits, 10 steps
+[00:28:12]   [00:28:12]    1327/13267 ok in 7s
+[00:28:20]   [00:28:20]    2654/13267 ok in 8s
+[00:28:33]   [00:28:33]    3981/13267 ok in 14s
+[00:28:45]   [00:28:45]    5308/13267 ok in 12s
+[00:29:00]   [00:29:00]    6635/13267 ok in 15s
+[00:30:07]   [00:30:07]    7962/13267 ok in 68s
+[00:30:49]   [00:30:49]    9289/13267 ok in 42s
+[00:31:28]   [00:31:28]    10616/13267 ok in 39s
+[00:33:29]   [00:33:29]    11943/13267 ok in 121s
+[00:34:49]   [00:34:49]    13267/13267 ok in 80s
+[00:34:50]   [00:34:50] 3. refs/heads : 39 refs in batches of 200
+[00:36:15]   [00:36:15]    39/39
+[00:36:15]   [00:36:15]    FAILED refs: 1
+[00:36:15]   [00:36:15] 3. refs/tags : 0 refs in batches of 200
+[00:36:17]   [00:36:17] 4. verify: local refs=40 target refs=40 mismatched/missing=0
+[00:36:17]   [00:36:17] === done in 10 min ===
+[00:36:18]   default branch: master
+[00:36:18]   DONE OPICS-programmers
+[00:36:18] ===== KON-doc-kondor-archive =====
+[00:36:20]   [00:36:20] === verify C:\kon-migration\KON-doc-kondor-archive-lfs.git against C:\kon-migration\KON-doc-kondor-archive.git ===
+[00:36:22]   [00:36:22] 1. refs: original=1 rewritten=1 missing=0 extra=0
+[00:38:00]   [00:38:00] 2. large blobs preserved in LFS (sha256 + size): 7 of 7
+[00:38:01]   [00:38:01] 3. ref tips changed by rewrite: 1; unexpected file differences: 0
+[00:38:05]   [00:38:05] 4. blobs > threshold reachable after rewrite: 0
+[00:38:05]   [00:38:05] === VERIFY PASSED (0 check(s) failed) ===
+[00:38:09]   [00:38:09] === push C:\kon-migration\KON-doc-kondor-archive-lfs.git -> https://github.com/tcm-pilot/KON-doc-kondor-archive.git ===
+[00:38:09]   [00:38:09] 1. LFS: pushing 7 objects
+[00:39:26]   [00:39:26]    Uploading LFS objects: 100% (7/7), 3.4 GB | 48 MB/s, done.
+[00:39:27]   [00:39:27] 2. master : 2 first-parent commits, 10 steps
+[00:39:29]   [00:39:29]    1/2 ok in 2s
+[00:40:38]   [00:40:38] FATAL: cannot push commit ca0ddef06e883fabe5a5c1910c683e68a205778e
+[00:40:38]   KON-doc-kondor-archive push finished with 1 mismatched refs - see push-KON-doc-kondor-archive\verify-missing.txt
+[03:58:15] ===== KON-kplus-front =====
+[03:58:17]   [03:58:17] === verify C:\kon-migration\KON-kplus-front-lfs.git against C:\kon-migration\KON-kplus-front.git ===
+[03:58:19]   [03:58:19] 1. refs: original=12450 rewritten=12450 missing=0 extra=0
+[04:02:36]   [04:02:36] 2. large blobs preserved in LFS (sha256 + size): 23 of 23
+[04:13:02]   [04:13:02]    ...2000/12450 refs compared
+[04:23:10]   [04:23:10]    ...4000/12450 refs compared
+[04:33:48]   [04:33:48]    ...6000/12450 refs compared
+[04:43:26]   [04:43:26]    ...8000/12450 refs compared
+[04:52:26]   [04:52:26]    ...10000/12450 refs compared
+[05:01:51]   [05:01:51]    ...12000/12450 refs compared
+[05:03:59]   [05:03:59] 3. ref tips changed by rewrite: 10734; unexpected file differences: 0
+[05:06:51]   [05:06:51] 4. blobs > threshold reachable after rewrite: 0
+[05:06:51]   [05:06:51] === VERIFY PASSED (0 check(s) failed) ===
+[05:06:55]   [05:06:55] === push C:\kon-migration\KON-kplus-front-lfs.git -> https://github.com/tcm-pilot/KON-kplus-front.git ===
+[05:06:55]   [05:06:55] 1. LFS: pushing 23 objects
+[05:07:37]   [05:07:37]    Uploading LFS objects: 100% (23/23), 4.4 GB | 115 MB/s, done.
+[05:07:38]   [05:07:38] 2. master : 114610 first-parent commits, 10 steps
+[05:08:24]   [05:08:24]    11461/114610 ok in 46s
+[05:09:01]   [05:09:01]    22922/114610 ok in 36s
+[05:09:50]   [05:09:50]    34383/114610 ok in 49s
+[05:10:56]   [05:10:56]    45844/114610 ok in 66s
+[05:11:34]   [05:11:34]    57305/114610 ok in 38s
+[05:12:06]   [05:12:06]    68766/114610 ok in 32s
+[05:13:18]   [05:13:18]    80227/114610 ok in 73s
+[05:14:14]   [05:14:14]    91688/114610 ok in 56s
+[05:16:37]   [05:16:37]    103149/114610 ok in 143s
+[05:20:42]   [05:20:42]    push failed at 114610, step -> 5730
+[05:20:43]   [05:20:43]    push failed at 108879, step -> 2865
+[05:20:44]   [05:20:44]    push failed at 106014, step -> 1432
+[05:20:45]   [05:20:45]    push failed at 104581, step -> 716
+[05:20:46]   [05:20:46]    push failed at 103865, step -> 358
+[05:20:47]   [05:20:47]    push failed at 103507, step -> 179
+[05:20:49]   [05:20:49]    push failed at 103328, step -> 89
+[05:20:50]   [05:20:50]    push failed at 103238, step -> 44
+[05:20:51]   [05:20:51]    push failed at 103193, step -> 22
+[05:20:52]   [05:20:52]    push failed at 103171, step -> 11
+[05:20:53]   [05:20:53]    push failed at 103160, step -> 5
+[05:20:55]   [05:20:55]    push failed at 103154, step -> 2
+[05:20:56]   [05:20:56]    push failed at 103151, step -> 1
+[05:20:57]   [05:20:57] FATAL: cannot push commit 9a8de7aafea8a6e2f437d639e6471822932f4139
+[05:20:57]   KON-kplus-front push finished with 1 mismatched refs - see push-KON-kplus-front\verify-missing.txt

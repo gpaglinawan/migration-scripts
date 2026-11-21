@@ -1,0 +1,5 @@
+﻿"Name","InSource","InTarget"
+"IMP-terraform-akamai-dns_zone","True","False"
+"IMP-terraform-akamai-edge_hostname","True","False"
+"IMP-terraform-akamai-environment","True","False"
+"IMP-terraform-akamai-iam_group","True","False"

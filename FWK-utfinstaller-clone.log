@@ -1,0 +1,20 @@
+﻿[03:42:28] === clone fin-tcm/FWK-utfinstaller -> C:\kon-migration\FWK-utfinstaller.git ===
+[03:42:31] git fetch (heads + tags) ...
+From https://github.com/fin-tcm/FWK-utfinstaller
+[03:46:43] git fetch exit=0 in 4 min
+[03:46:44] branches=14 tags=0
+[03:46:44]   count: 0
+[03:46:44]   size: 0 bytes
+[03:46:44]   in-pack: 15405
+[03:46:44]   packs: 1
+[03:46:44]   size-pack: 7.10 GiB
+[03:46:44]   prune-packable: 0
+[03:46:44]   garbage: 0
+[03:46:44]   size-garbage: 0 bytes
+[03:46:44] git lfs fetch --all ...
+1 object found, done.
+Fetching all references...
+[03:46:55] git lfs fetch exit=0 in 0 min
+[03:46:55] LFS inventory (all refs) ...
+[03:47:03] LFS objects referenced=0 present=0 missing=0 localSize=0.00 GB
+[03:47:03] === done ===

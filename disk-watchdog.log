@@ -1,0 +1,81 @@
+﻿[2026-10-25 02:22:04] watchdog started: clean below 40 GB until 60 GB free (now 107.1 GB)
+[2026-10-25 03:47:10] LOW DISK: 37.3 GB free - cleaning
+[2026-10-25 03:47:11] deleted C:\kon-migration\kon-bigfiles\all-objects.txt (0.22 GB) -> free 37.5 GB
+[2026-10-25 03:47:12] deleted C:\kon-migration\kon-bigfiles\rev-objects.txt (0.46 GB) -> free 37.9 GB
+[2026-10-25 03:47:14] deleted C:\kon-migration\smoketest (0.00 GB) -> free 37.9 GB
+[2026-10-25 03:47:14] deleted C:\kon-migration\sync-dryrun (0.00 GB) -> free 37.9 GB
+[2026-10-25 03:47:15] deleted C:\kon-migration\feeds-test (0.00 GB) -> free 37.9 GB
+[2026-10-25 03:47:16] deleted C:\kon-migration\tools\artifacttool.zip (0.08 GB) -> free 38.0 GB
+[2026-10-25 03:47:17] deleted C:\kon-migration\tools\py312-embed.zip (0.01 GB) -> free 38.0 GB
+[2026-10-25 03:47:17] deleted C:\kon-migration\bigfiles-FCBO-fusion-detect-core\verify\after-sizes.txt (0.00 GB) -> free 38.0 GB
+[2026-10-25 03:47:18] deleted C:\kon-migration\bigfiles-FCBO-fusion-detect-core\verify\orig-objects.txt (0.00 GB) -> free 38.0 GB
+[2026-10-25 03:47:18] deleted C:\kon-migration\bigfiles-FCGC-pricing-analytics\verify\after-sizes.txt (0.22 GB) -> free 38.2 GB
+[2026-10-25 03:47:19] deleted C:\kon-migration\bigfiles-FCGC-pricing-analytics\verify\orig-objects.txt (0.10 GB) -> free 38.3 GB
+[2026-10-25 03:47:19] deleted C:\kon-migration\bigfiles-KON-doc-kondor-archive\verify\after-sizes.txt (0.00 GB) -> free 38.3 GB
+[2026-10-25 03:47:20] deleted C:\kon-migration\bigfiles-KON-doc-kondor-archive\verify\orig-objects.txt (0.00 GB) -> free 38.3 GB
+[2026-10-25 03:47:20] deleted C:\kon-migration\bigfiles-KON-doc-kondor-archive-100mb\verify\after-sizes.txt (0.00 GB) -> free 38.3 GB
+[2026-10-25 03:47:21] deleted C:\kon-migration\bigfiles-KON-doc-kondor-archive-100mb\verify\orig-objects.txt (0.00 GB) -> free 38.3 GB
+[2026-10-25 03:47:21] deleted C:\kon-migration\bigfiles-MAFTP-fpp-fusioncapital\verify\after-sizes.txt (0.03 GB) -> free 38.3 GB
+[2026-10-25 03:47:21] deleted C:\kon-migration\bigfiles-MAFTP-fpp-fusioncapital\verify\orig-objects.txt (0.01 GB) -> free 38.4 GB
+[2026-10-25 03:47:22] deleted C:\kon-migration\bigfiles-OPICS-programmers\verify\after-sizes.txt (0.06 GB) -> free 38.4 GB
+[2026-10-25 03:47:22] deleted C:\kon-migration\bigfiles-OPICS-programmers\verify\orig-objects.txt (0.02 GB) -> free 38.4 GB
+[2026-10-25 03:47:23] deleted C:\kon-migration\bigfiles-RISK-cmr\verify\after-sizes.txt (0.14 GB) -> free 38.6 GB
+[2026-10-25 03:47:23] deleted C:\kon-migration\bigfiles-RISK-cmr\verify\orig-objects.txt (0.07 GB) -> free 38.6 GB
+[2026-10-25 03:47:24] deleted C:\kon-migration\FCGC-pricing-analytics-lfs.git (7.25 GB) -> free 51.0 GB
+[2026-10-25 03:47:25] deleted C:\kon-migration\RISK-cmr-lfs.git (4.88 GB) -> free 61.1 GB
+[2026-10-26 23:48:36] LOW DISK: 38.8 GB free - cleaning
+[2026-10-26 23:48:44] deleted C:\kon-migration\bigfiles-FWK-utfinstaller\verify\after-sizes.txt (0.00 GB) -> free 38.4 GB
+[2026-10-26 23:48:44] deleted C:\kon-migration\bigfiles-FWK-utfinstaller\verify\orig-objects.txt (0.00 GB) -> free 38.4 GB
+[2026-10-26 23:48:44] deleted C:\kon-migration\bigfiles-KON-kplus-front\verify\after-sizes.txt (0.48 GB) -> free 38.9 GB
+[2026-10-26 23:48:44] deleted C:\kon-migration\bigfiles-KON-kplus-front\verify\orig-objects.txt (0.22 GB) -> free 39.1 GB
+[2026-10-26 23:48:44] deleted C:\kon-migration\bigfiles-SFX-netcore-common\verify\after-sizes.txt (0.00 GB) -> free 39.1 GB
+[2026-10-26 23:48:45] deleted C:\kon-migration\bigfiles-SFX-netcore-common\verify\orig-objects.txt (0.00 GB) -> free 39.1 GB
+[2026-10-26 23:48:46] deleted C:\kon-migration\FCGC-pricing-analytics-lfs.git (7.25 GB) -> free 46.3 GB
+[2026-10-26 23:48:46] deleted C:\kon-migration\OPICS-programmers-lfs.git (5.99 GB) -> free 52.2 GB
+[2026-10-26 23:48:48] deleted C:\kon-migration\KON-doc-kondor-archive-lfs.git (6.91 GB) -> free 59.0 GB
+[2026-10-26 23:48:49] deleted C:\kon-migration\FCGC-pricing-analytics.git (2.56 GB) -> free 61.6 GB
+[2026-10-27 01:53:52] LOW DISK: 36.0 GB free - cleaning
+[2026-10-27 01:53:57] deleted C:\kon-migration\RISK-cmr.git (2.97 GB) -> free 38.6 GB
+[2026-10-27 01:53:57] deleted C:\kon-migration\OPICS-programmers.git (5.02 GB) -> free 43.7 GB
+[2026-10-27 01:53:57] deleted C:\kon-migration\KON-doc-kondor-archive.git (5.45 GB) -> free 49.1 GB
+[2026-10-29 02:10:19] LOW DISK: 26.7 GB free - cleaning
+[2026-10-29 02:10:31] STILL LOW after cleanup: 26.4 GB free - nothing else safe to delete
+[2026-10-30 03:46:03] LOW DISK: 29.8 GB free - cleaning
+[2026-10-30 03:46:12] STILL LOW after cleanup: 29.3 GB free - nothing else safe to delete
+[2026-10-30 06:41:30] LOW DISK: 25.2 GB free - cleaning
+[2026-10-30 06:41:39] STILL LOW after cleanup: 24.7 GB free - nothing else safe to delete
+[2026-10-30 11:42:03] LOW DISK: 35.3 GB free - cleaning
+[2026-10-30 11:42:16] STILL LOW after cleanup: 34.7 GB free - nothing else safe to delete
+[2026-10-30 11:47:17] LOW DISK: 17.6 GB free - cleaning
+[2026-10-30 11:47:28] STILL LOW after cleanup: 17.0 GB free - nothing else safe to delete
+[2026-10-30 15:28:17] LOW DISK: 39.9 GB free - cleaning
+[2026-10-30 15:28:29] STILL LOW after cleanup: 39.8 GB free - nothing else safe to delete
+[2026-10-30 15:48:33] LOW DISK: 37.8 GB free - cleaning
+[2026-10-30 15:48:55] STILL LOW after cleanup: 37.5 GB free - nothing else safe to delete
+[2026-10-30 15:53:55] LOW DISK: 31.5 GB free - cleaning
+[2026-10-30 15:54:10] STILL LOW after cleanup: 31.3 GB free - nothing else safe to delete
+[2026-10-30 15:59:10] LOW DISK: 26.0 GB free - cleaning
+[2026-10-30 15:59:28] STILL LOW after cleanup: 25.9 GB free - nothing else safe to delete
+[2026-10-30 16:04:28] LOW DISK: 25.2 GB free - cleaning
+[2026-10-30 16:04:54] STILL LOW after cleanup: 25.2 GB free - nothing else safe to delete
+[2026-10-30 16:09:55] LOW DISK: 25.2 GB free - cleaning
+[2026-10-30 16:10:07] STILL LOW after cleanup: 25.2 GB free - nothing else safe to delete
+[2026-10-30 16:15:07] LOW DISK: 31.9 GB free - cleaning
+[2026-10-30 16:15:20] STILL LOW after cleanup: 31.9 GB free - nothing else safe to delete
+[2026-10-30 16:20:20] LOW DISK: 37.7 GB free - cleaning
+[2026-10-30 16:20:31] STILL LOW after cleanup: 37.5 GB free - nothing else safe to delete
+[2026-10-30 16:25:32] LOW DISK: 35.4 GB free - cleaning
+[2026-10-30 16:25:45] STILL LOW after cleanup: 35.3 GB free - nothing else safe to delete
+[2026-10-30 16:30:45] LOW DISK: 35.1 GB free - cleaning
+[2026-10-30 16:31:01] STILL LOW after cleanup: 34.6 GB free - nothing else safe to delete
+[2026-10-30 16:36:01] LOW DISK: 33.2 GB free - cleaning
+[2026-10-30 16:36:31] STILL LOW after cleanup: 32.7 GB free - nothing else safe to delete
+[2026-10-30 16:41:31] LOW DISK: 32.7 GB free - cleaning
+[2026-10-30 16:41:44] STILL LOW after cleanup: 32.7 GB free - nothing else safe to delete
+[2026-10-30 16:46:45] LOW DISK: 40.0 GB free - cleaning
+[2026-10-30 16:57:00] LOW DISK: 39.1 GB free - cleaning
+[2026-10-30 16:57:08] STILL LOW after cleanup: 38.7 GB free - nothing else safe to delete
+[2026-10-30 17:02:08] LOW DISK: 21.6 GB free - cleaning
+[2026-10-30 17:02:16] STILL LOW after cleanup: 21.2 GB free - nothing else safe to delete
+[2026-10-30 17:07:16] LOW DISK: 5.2 GB free - cleaning
+[2026-10-30 17:07:26] STILL LOW after cleanup: 4.9 GB free - nothing else safe to delete

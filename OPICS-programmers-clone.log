@@ -1,0 +1,20 @@
+﻿[22:38:33] === clone fin-tcm/OPICS-programmers -> C:\kon-migration\OPICS-programmers.git ===
+[22:38:34] git fetch (heads + tags) ...
+From https://github.com/fin-tcm/OPICS-programmers
+[22:43:49] git fetch exit=0 in 5 min
+[22:43:50] branches=40 tags=0
+[22:43:51]   count: 0
+[22:43:51]   size: 0 bytes
+[22:43:51]   in-pack: 437542
+[22:43:51]   packs: 1
+[22:43:51]   size-pack: 5.02 GiB
+[22:43:51]   prune-packable: 0
+[22:43:51]   garbage: 0
+[22:43:51]   size-garbage: 0 bytes
+[22:43:51] git lfs fetch --all ...
+1 object found, done.
+Fetching all references...
+[22:45:14] git lfs fetch exit=0 in 1 min
+[22:45:14] LFS inventory (all refs) ...
+[22:46:20] LFS objects referenced=0 present=0 missing=0 localSize=0.00 GB
+[22:46:20] === done ===
